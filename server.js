@@ -8,31 +8,31 @@ app.use(cors());
 
 const dbFiguarts = {
     "piccolo": {
-        "name" : "Piccolo",
+        "figname" : "Piccolo",
         "number" : 1,
         "release" : "November 2009",
         "releasetype" : "General"
     },
     "supersaiyansongoku": {
-        "name" : "Super Saiyan Son Goku",
+        "figname" : "Super Saiyan Son Goku",
         "number" : 2,
         "release" : "January 2010",
         "releasetype" : "General"
     },
     "supersaiyansongohan": {
-        "name" : "Super Saiyan Son Gohan",
+        "figname" : "Super Saiyan Son Gohan",
         "number" : 3,
         "release" : "July 2010",
         "releasetype" : "General"
     },
     "supersaiyanvegeta": { 
-        "name" : "Super Saiyan Vegeta",
+        "figname" : "Super Saiyan Vegeta",
         "number" : 4,
         "release" : "December 2011",
         "releasetype" : "Premium Bandai"
     },
     "unknown": {
-        "name" : "???",
+        "figname" : "???",
         "number" : NaN,
         "release" : "???",
         "releasetype" : "???"
